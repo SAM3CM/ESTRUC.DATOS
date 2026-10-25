@@ -54,3 +54,13 @@ pila.insertar("R")
 print("\n=== RESULTADO FINAL ===")
 print(f"Elementos restantes en la pila: {pila.tope}")
 print(f"Contenido final de la pila: {pila.elementos[:pila.tope]}")
+
+"""
+Preguntas:
+¿Con cuántos elementos quedó la pila?
+	R: Quedaron dos elementos en la pila
+
+¿Hubo algún caso de error (desbordamiento o subdesbordamiento)? Si ocurrió algún error, explícalo.
+	R: Si, hubo un error de subdesbordamiento, debido a que se intento eliminar tres elementos de la pila
+	cuando solo habían dos elementos al momento de querer eliminar provocando ese fallo
+"""
